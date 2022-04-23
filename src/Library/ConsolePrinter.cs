@@ -10,7 +10,9 @@ namespace Full_GRASP_And_SOLID.Library
         {
             Console.WriteLine(recipe.GetRecipe());
         }
-    }
+    } /*Para hacer se tuvo en cuenta el patrón SRP, todas las responsabilidades de las clases están asociadas 
+     solamente a esta funcionalidad de la aplicación, todos los métodos y atributos están alineados 
+     con esta responsabilidad, esta se convierte en la única responsabilidad. */
 }
 
     
